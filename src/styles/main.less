@@ -1,0 +1,66 @@
+@fontePrincipal:'Roboto',sans-serif;
+@foneTitulo: 'Lobster', cursive;
+
+@corDoTexto:#fff;
+@corDoFunto:#eb3b5a;
+@corBotao:#f2b731;
+@cortextoBotao:#000;
+
+
+body{
+    background-color: @corDoFunto;
+    color:@corDoTexto;
+    font-family: @fontePrincipal;
+
+}
+
+h1{
+    font-family:@foneTitulo;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button{
+    padding:16px;
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 1.3em;
+    font-family: @fontePrincipal;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color:@corBotao;
+    color:@cortextoBotao;
+
+}
+
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border-bottom: 6px solid #fff;
+}
+
+.resultado{
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted #fff;
+    display: none;
+
+    span{
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+
+    }
+}
